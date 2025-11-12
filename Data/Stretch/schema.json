@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "customer_id": { "type": "string" },
+      "product": { "type": "string" },
+      "price": { "type": ["number", "null"] },
+      "date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "city": { "type": ["string", "null"] }
+    },
+    "required": ["customer_id", "product", "date"]
+  }
+}

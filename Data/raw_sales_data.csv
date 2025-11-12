@@ -1,0 +1,7 @@
+Unnamed: 0,CustomerID,product,Price,Date,City
+0,001,Widget,100,2024/03/01,New York
+1,002,Gadget,"200",03-02-2024,Los Angeles
+2,003,Widget,150,2024-03-03,San Francisco
+3,004,Gizmo,,"03/04/2024",München
+4,005,widget,"N/A",2024/03/05,New York
+5,006,Gadget,300,2024-03-06,Jose
