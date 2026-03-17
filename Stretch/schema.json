@@ -3,12 +3,12 @@
   "items": {
     "type": "object",
     "properties": {
-      "customer_id": { "type": "string" },
+      "customer_id": { "type": "" },
       "product": { "type": "string" },
-      "price": { "type": ["number", "null"] },
-      "date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "price": { "type": ["", "null"] },
+      "date": { "type": ["string", "null"], "pattern": "" },
       "city": { "type": ["string", "null"] }
     },
-    "required": ["customer_id", "product", "date"]
+    "required": ["", "", ""]
   }
 }
