@@ -1,7 +1,0 @@
-Data Cleaning Log
-=================
-- Renamed headers to lowercase with underscores
-- Converted Price to numeric and handled missing values
-- Standardized Date to YYYY-MM-DD
-- Trimmed whitespace and lowercased product names
-- Confirmed UTF-8 encoding handled (München)
